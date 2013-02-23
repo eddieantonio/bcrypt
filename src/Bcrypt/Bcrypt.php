@@ -1,4 +1,4 @@
-<?php namespace \Bcrypt;
+<?php namespace Bcrypt;
 /**
  * @file
  *

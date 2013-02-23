@@ -1,6 +1,6 @@
 # `Bcrypt.php`
 
-**Forked (from myself) at [BitBucket][Original Bcrypt.php]**
+**Forked (from myself) at [BitBucket][Original Bcrypt.php].**
 
 [Original Bcrypt.php]: https://bitbucket.org/eddieantonio/bcrypt.php
 
@@ -31,6 +31,16 @@ $plain_text_password = //...
 
 if ($bcrypt->verify($plain_text_password, $user_pass_hash)) {
   login();
+}
+```
+
+## Composer
+
+If you're using Composer, you can just add this to your require list:
+
+```json
+"require": {
+    "eddieantonio/bcrypt": "dev-master"
 }
 ```
 
