@@ -1,6 +1,6 @@
 # `Bcrypt.php`
 
-**Forked (from myself) at [BitBucket][Original Bcrypt.php])**
+**Forked (from myself) at [BitBucket][Original Bcrypt.php]**
 
 [Original Bcrypt.php]: https://bitbucket.org/eddieantonio/bcrypt.php
 
@@ -19,17 +19,18 @@ authors... probably.
 
 Simply instantiate and Bcrypt to your heart's desire!
 
-    :::php
-  
-    $bcrypt = new \Bcrypt\Bcrypt();
-  
-    $hashed = $bcrypt->hash('this is a random string');
-  
-    // elsewhere...
-  
-    $plain_text_password = //... 
+```php
 
-    if ($bcrypt->verify($plain_text_password, $user_pass_hash)) {
-      login();
-    }
+$bcrypt = new \Bcrypt\Bcrypt();
+
+$hashed = $bcrypt->hash('this is a random string');
+
+// elsewhere...
+
+$plain_text_password = //... 
+
+if ($bcrypt->verify($plain_text_password, $user_pass_hash)) {
+  login();
+}
+```
 
