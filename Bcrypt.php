@@ -1,4 +1,4 @@
-<?php
+<?php namespace \Bcrypt;
 /**
  * @file
  *
@@ -15,7 +15,6 @@
  * countless times with each claiming different authors.
  */
 
-namespace Bcrypt;
 
 /**
  * Class for encapsulating the Bcrypt encryption algorithm, suitable 
@@ -95,8 +94,9 @@ class Bcrypt {
     return sprintf('$2a$%02d$%s', $this->rounds, $base64salt);
   }
   
-  /** Gets random, cryptographically-secure bytes, suitable for 
-   * encryption. */
+  /**
+   * Gets random, cryptographically-secure bytes, suitable for encryption.
+   */
   private function getBytes() {
     $bytes = '';
 
@@ -126,6 +126,5 @@ class Bcrypt {
     
     return $bytes;
   }
+
 }
-
-

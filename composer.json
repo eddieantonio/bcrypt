@@ -1,0 +1,16 @@
+{
+    "name": "eddieantonio/bcrypt",
+    "description": "Bcrypt class stolen from the internet, for use with Composer.",
+    "license": "SAX-PD",
+    "authors": [
+        {
+            "name": "Eddie Antonio Santos",
+            "email": "easantos@ualberta.ca"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Bcrypt": "/"
+        }
+    }
+}

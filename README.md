@@ -1,5 +1,9 @@
 # `Bcrypt.php`
 
+**Forked (from myself) at [BitBucket][Original Bcrypt.php])**
+
+[Original Bcrypt.php]: https://bitbucket.org/eddieantonio/bcrypt.php
+
 This is my personal Bcrypt wrapper class-thing I use in my projects for
 Bcrypting buisness. It was mostly not written by me -- check the file
 comment in the file for all the peeps I attribute this file to. That
