@@ -11,6 +11,12 @@ said, a quick check on the internet shows a bajillion and one files
 *exactly* like this one, all with different names. THE PEOPLE'S BCRYPT
 MINILIBRARY... THING.
 
+It is based on [Andrew Moore's answer][1] on StackOverflow. If you're
+using PHP 5.5 or greater, use [`password_hash`][2] instead.
+
+[1]: http://stackoverflow.com/a/6337021
+[2]: http://php.net/password_hash
+
 **Use at your own risk. I offer absolutely no warranty on the
 cryptographic amazingness of this library, nor do any of the original
 authors... probably.**

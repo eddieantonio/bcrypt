@@ -7,7 +7,7 @@
  * @author Andrew Moore
  *
  * Original Source from:
- * http://stackoverflow.com/questions/4795385/how-do-you-use-bcrypt-for-hashing-passwords-in-php/6337021#6337021
+ * http://stackoverflow.com/q/4795385
  *
  * Heavily modified by Robert Kosek, from data at php.net/crypt
  * Additionally modifed by Eddie Santos <easantos@ualberta.ca>. I would like to
@@ -48,7 +48,10 @@ class Bcrypt {
    *                       faster, we can scale the algorithm to be secure
    *                       on faster machines very easily.
    */
-  public function __construct($prefix = '', $rounds = 12) {
+  public function __construct(
+    $prefix = self::DEFAULT_PREFIX,
+    $rounds = self::DEFAULT_ROUNDS)
+  {
     if (CRYPT_BLOWFISH != 1) {
         throw new Exception("bcrypt not supported in this installation." .
             " See http://php.net/crypt");
