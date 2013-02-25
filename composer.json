@@ -1,7 +1,7 @@
 {
     "name": "eddieantonio/bcrypt",
     "description": "Bcrypt class stolen from the internet, for use with Composer.",
-    "license": "SAX-PD",
+    "license": "CC0-1.0",
     "authors": [
         {
             "name": "Eddie Antonio Santos",

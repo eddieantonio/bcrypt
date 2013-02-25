@@ -71,11 +71,13 @@ If you're using Composer, you can just add this to your require list:
 
 # License
 
-Public domain.
+[Creative Commons Public Domain Declaration][CC0]
 
 Since the meat of this code was stolen from various sources who simply
 posted the code on the internet with no license, I consider this
 library to be public domain by default and take no credit in writing
 it; simply polishing it up such that it can be easily used with
 Composer.
+
+[CC0]: http://creativecommons.org/publicdomain/zero/1.0/
 
